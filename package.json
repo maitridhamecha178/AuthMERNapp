@@ -1,0 +1,11 @@
+{
+  "name": "authmern2-root",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm --prefix server start\" \"npm --prefix client start\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
